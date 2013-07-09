@@ -12,7 +12,7 @@ public:
 
 public:
 	virtual int32_t GetImage(OPRoS::CameraData *image) { return API_NOT_SUPPORTED; };
-	virtual int32_t StartPushImage((int32_t period, int32_t format, int32_t width, int32_t height, void (*callback), void *arg) { return API_NOT_SUPPORTED; };
+	virtual int32_t StartPushImage(int32_t period, int32_t format, int32_t width, int32_t height, void (*callback), void *arg) { return API_NOT_SUPPORTED; };
 	virtual int32_t EndPushImage(void) { return API_NOT_SUPPORTED; };
 };
 
