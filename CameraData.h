@@ -48,7 +48,7 @@ public:
 	CameraData(void) {
 		status = OPROS_SUCCESS;
 	}
-	CameraData(int32_t format, int32_t width, int32_t, std::vector<uint8_t> &data) {
+	CameraData(int32_t format, int32_t width, int32_t height, std::vector<uint8_t> &data) {
 		status = OPROS_SUCCESS;
 		this->format = format;
 		this->width = width;
