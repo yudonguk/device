@@ -48,7 +48,7 @@ public:
 	virtual ~PositionSensor(void)	{	}
 
 public:
-	virtual int32_t GetSensorValue(std::vector<OPRoS::CartesianCoordinate> &sensorValue)		{ return API_NOT_SUPPORTED; }
+	virtual int32_t GetSensorValue(std::vector<OPRoS::ObjectPositionData> &sensorValue)		{ return API_NOT_SUPPORTED; }
 };
 
 
