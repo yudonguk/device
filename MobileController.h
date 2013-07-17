@@ -47,7 +47,7 @@ public:
 	MobileController(void)	{	}
 	virtual ~MobileController(void)	{	}
 
-	virtual int32_t GetOdometery(std::vector<OPRoS::Int32> &odometery)		{ return API_NOT_SUPPORTED; }
+	virtual int32_t GetOdometry(std::vector<OPRoS::Int32> &odometery)		{ return API_NOT_SUPPORTED; }
 	virtual int32_t SetVelocity(OPRoS::MobileVelocityData mobileVelocity)	{ return API_NOT_SUPPORTED; }
 	virtual int32_t SetPosition(OPRoS::MobilePositionData position)			{ return API_NOT_SUPPORTED; }	
 	virtual int32_t GetPosition(OPRoS::MobilePositionData &position)		{ return API_NOT_SUPPORTED; }
