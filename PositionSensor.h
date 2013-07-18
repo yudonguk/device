@@ -39,7 +39,7 @@ This license policy may be changed without prior notice.
 #define	_POSITION_SENSOR_H_
 
 #include "OprosDevice.h"
-#include "CartesianCoordinateData.h"
+#include "ObjectPositionData.h"
 
 class PositionSensor : public OprosDevice
 {
