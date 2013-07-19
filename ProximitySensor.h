@@ -36,7 +36,7 @@ This license policy may be changed without prior notice.
 #include "OprosDevice.h"
 #include "ApiTypes.h"
 
-class ProximitSensor : public OprosDevice
+class ProximitySensor : public OprosDevice
 {
 public:
 	ProximitSensor(void)			{	}
