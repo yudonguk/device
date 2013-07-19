@@ -43,7 +43,7 @@ public:
 	virtual ~ProximitSensor(void)	{	}
 
 public:
-	 virtual int32_t GetSensorValue(std::vector<OPRoS::Float64> *sensorValue)	{ return API_NOT_SUPPORTED; }
+	 virtual int32_t GetSensorValue(std::vector<OPRoS::Float64Array> *sensorValue)	{ return API_NOT_SUPPORTED; }
 };
 
 
